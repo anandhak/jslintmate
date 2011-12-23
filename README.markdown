@@ -1,5 +1,32 @@
 JSLintMate
 ==========
+Hack to make work with Textmate 2 alpha
+---------------------------------------
+
+To install:
+via Git:
+
+    # To install for the first time:
+    mkdir -p ~/Library/Application\ Support/Avian/Pristine\ Copy/Bundles
+    cd ~/Library/Application\ Support/Avian/Pristine\ Copy/Bundles
+    git clone git://github.com/anandhak/jslintmate.git "JavaScript JSLintMate.tmbundle"
+
+    # To update to the latest version:
+    cd ~/Library/Application\ Support/Avian/Pristine\ Copy/Bundles
+    git pull
+    
+Hack(I need figure out a clean solution for this, meanwhile):
+
+1. Open bundle editor in TM2.
+2. Open 'JavaScript JSLintMate > Settings"
+3. Cmd + N and edit "Textmate2 Compatible" setting (create one if it doesnt exist).
+4. In the 'value' for the 'TM_BUNDLE_PATH' add
+
+  '/Users/<username>/Library/Application Support/Avian/Pristine Copy/Bundles/JavaScript JSLintMate.tmbundle'
+
+Replace <username> with you home directory name. 
+Essentially, it needs the absolute path to the bundle.
+---------
 
 Quick, simple **JSLint and JSHint in TextMate**. Hurt your feelings in style.
 
