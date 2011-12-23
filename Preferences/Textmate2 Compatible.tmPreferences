@@ -2,11 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>untitled</string>
-	<key>settings</key>
+	<key>changed</key>
 	<dict>
-		<key>shellVariables</key>
+		<key>name</key>
+		<string>Textmate2 Compatible</string>
+		<key>settings.shellVariables</key>
 		<array>
 			<dict>
 				<key>name</key>
@@ -16,6 +16,8 @@
 			</dict>
 		</array>
 	</dict>
+	<key>isDelta</key>
+	<true/>
 	<key>uuid</key>
 	<string>6826E793-890B-4440-BA90-0A49100F9D9D</string>
 </dict>
