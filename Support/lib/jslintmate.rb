@@ -93,8 +93,8 @@ module JSLintMate
   def self.bundle_path
     unless @bundle_path
       user_bundle_path      = (ENV['TM_BUNDLE_PATH'] || '.').dup
-      pristine_bundle_path  = user_bundle_path.sub('TextMate/Bundles',
-                                'TextMate/Pristine Copy/Bundles')
+      pristine_bundle_path  = user_bundle_path.sub('Avian/Bundles',
+                                'Avian/Pristine Copy/Bundles')
       long_bundle_name      = 'JavaScript JSLintMate.tmbundle'
       short_bundle_name     = 'JSLintMate.tmbundle'
       long_bundle_rxp       = %r{/#{Regexp.escape long_bundle_name}$}

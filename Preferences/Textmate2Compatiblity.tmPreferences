@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>untitled</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_BUNDLE_PATH</string>
+				<key>value</key>
+				<string>~/Library/Application Support/Avian/Pristine Copy/Bundles/JavaScript JSLintMate.tmbundle</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>6826E793-890B-4440-BA90-0A49100F9D9D</string>
+</dict>
+</plist>
