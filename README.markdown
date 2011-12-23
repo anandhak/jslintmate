@@ -22,10 +22,11 @@ Hack(I need figure out a clean solution for this, meanwhile):
 3. Cmd + N and edit "Textmate2 Compatible" setting (create one if it doesnt exist).
 4. In the 'value' for the 'TM_BUNDLE_PATH' add
 
-  '/Users/<username>/Library/Application Support/Avian/Pristine Copy/Bundles/JavaScript JSLintMate.tmbundle'
+  '/Users/%username%/Library/Application Support/Avian/Pristine Copy/Bundles/JavaScript JSLintMate.tmbundle'
 
-Replace <username> with you home directory name. 
+Replace %username% with you home directory name. 
 Essentially, it needs the absolute path to the bundle.
+
 ---------
 
 Quick, simple **JSLint and JSHint in TextMate**. Hurt your feelings in style.
